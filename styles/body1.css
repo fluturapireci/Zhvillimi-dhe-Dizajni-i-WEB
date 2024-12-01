@@ -207,6 +207,7 @@ padding-left: 70px;
     font-size: 16px;
     font-weight: 900;
     margin-bottom: 5px;
+    font-family: 'Open Sans';
 }
 .price{
     position: absolute;
@@ -214,12 +215,14 @@ padding-left: 70px;
     right: 10px;
     font-size: 16px;
     font-weight: 900;
+    font-family: 'Open Sans';
 
 }
 .description{
     display: block;
     font-size: 16px;
     margin-bottom: 20px;
+    font-family: 'Open Sans';
 }
 
 button.add-to-cart {
@@ -347,4 +350,3 @@ button.add-to-cart:hover {
 p{
     text-align: center;
 }
-
