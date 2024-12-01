@@ -3,14 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="categories.css">
+    <link rel="stylesheet" href="Navigation Panel.css">
     <link rel="stylesheet" href="product.js">
+    <link rel="stylesheet" href="login.js">
     <title>Health & Wellness Store</title>
     <script src="https://kit.fontawesome.com/722b4296f0.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>  
+      <header class="navbar">
+        <div class="logo">HEALTH &<br>
+             <span> WELLNESS</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" id="product-button">Products</a>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                        <li><a href="#">Hair</a></li>
+                        <li><a href="#">Skin</a></li>
+                        <li><a href="#">Body</a></li>
+                        <li><a href="#">Vitamins & Supplements</a></li>
+                        <li><a href="#">Wellness Tools</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="sale">Sale</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-icons">
+            <a href="#"><i class="fas fa-search" ></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#" id="user-icon" ><i class="fa-regular fa-user"></i></a>
+        </div>
+    </header>
+         <main>
+            <div class="hero">
+                <h1>Nourish your body, transform your life!</h1>
+                <p>Shop Wellness Products Online at Our Health & Wellness Store. Enhance your self-care routine with premium products designed to support a healthier, more balanced lifestyle. Start your journey to well-being today!</p>
+            </div>-
+        </main>
+    <div class="popup-overlay" id="popup-overlay">
+            <div class="login-popup">
+              <div class="tabs">
+                <button class="tab active" id="loginTab">Log in</button>
+                <button class="tab" id="registerTab">Register</button>
+              </div>
+              <form id="login-form">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <a href="#" class="forgot-password">Forgot your password?</a>
+                <button type="submit" class="submit-btn">Log in</button>
+              </form>
+              <form id="register-form">
+                <div class="form-group">
+                  <label for="First Name">First Name</label>
+                  <input type="First Name" id="First Name" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="Last Name">Last Name</label>
+                    <input type="Last Name" id="Last Name" placeholder="Last Name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="register-email" placeholder="Email" required>
+                  </div>
+                <div class="form-group">
+                  <label for="password">New Password</label>
+                  <input type="password" id="password-email" placeholder="Password" required>
+                </div>
+                <button type="submit" class="submit-btn">Register</button>
+              </form>
+            </div>
+          </div>
+
+          <script src="login.js"></script>
+         <script src="product.js"></script>
 <div class="categories">
     <div class="category">
         <a href="Hair.html">
