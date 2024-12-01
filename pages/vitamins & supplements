@@ -1,1 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health & Wellness Store</title>
+    <link rel="stylesheet" href="stylevitaminat.css">
+    <script src="https://kit.fontawesome.com/722b4296f0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+      <header class="navbar">
+        <div class="logo">HEALTH &<br>
+             <span> WELLNESS</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="about.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#" class="sale">Sale</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+        <div class="nav-icons">
+            <a href="#"><i class="fas fa-search" ></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+        </div>
+      </header> 
+     <section class="vitamin">  
+        <h1>VITAMINS & SUPPLEMENTS</h1>
+        <hr class="top-line">
+        <img src="banner1.png.jpg" alt="foto" class="vitamins-foto">   
+        <div class="vitamin-row"> 
+        <div class="product">
+            
+                <img src="vitaminamehan.PNG" alt="Vitamin Image 1" >
+                <span class="name">GOOP WELLNESS</span>
+                <span class="price">30.99€</span>
+               
+                <span class="description">Knock me out</span>
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+        <div class="product">
+                <img src="foto2.PNG" alt="Vitamin Image 2" >
+            <span class="name"> GOOP WELLNESS</span>
+            <span class="price">60.99€</span>
+            <span class="description">DTF</span>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product">
+            <img src="foto3.PNG" alt="Vitamin Image 2" >
+        <span class="name">DR.NIGMA</span>
+        <span class="price">70.99€</span>
+        <span class="description">Cortisol Balancer</span>
+        <button class="add-to-cart">ADD TO CART</button>
+    </div>
+    <div class="product">
+        <img src="foto4.PNG" alt="Vitamin Image 2" >
+    <span class="name">DR.NIGMA</span>
+    <span class="price">23.99€</span>
+    <span class="description">Perfect Hair Day Dry Shampoo</span>
+    <button class="add-to-cart">ADD TO CART</button>
+</div>
+</div>
+    <div class="vitamin-row2">
+        <div class="product">
+                <img src="foto5.PNG" alt="Vitamin Image 3" >
+                <span class="name">THE BEAUTY CHEF</span>
+                <span class="price">50.99€</span>
+                <span class="description">Collagen Inner Beauty Boost</span>
+                <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product">
+                <img src="foto6.PNG" alt="Vitamin Image 4" >
+                <span class="name">THE BEAUTY CHEF</span>
+                <span class="price">50.99€</span>
+                <span class="description">Hydration Inner Beauty Boost</span>
+                <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product">
+                <img src="foto7.PNG" alt="Vitamin Image 5" >
+                <span class="name">THE BEAUTY CHEF</span>
+                <span class="price">69.99€</span>
+                <span class="description">Hydra-Fortifant Shampoo</span>
+                <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product">
+                <img src="foto8.PNG" alt="Vitamin Image 6" >
+                <span class="name">BEEKEEPERS</span>
+                <span class="price">16.99€</span>
+                <span class="description">Superfood Honey</span>
+                <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+    <div class="vitamin-row3">
+        <div class="product">
+                <img src="foto9.PNG" alt="Vitamin Image 7" >
+                <span class="name">GOLDE</span>
+                <span class="price">29.99€</span>
+                <span class="description">Original Tumeric Latte Blend</span>
+                <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product">
+                <img src="foto10.PNG" alt="Vitamin Image 8" >
+                <span class="name">GOLDE</span>
+                <span class="price">29.99€</span>
+                <span class="description">Matcha Tumeric Latte Blend</span>
+                <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product">
+                <img src="foto11.PNG" alt="Vitamin Image 9" >
+                <span class="name">OLYXIR</span>
+                <span class="price">24.99€</span>
+                <span class="description">Sleep Tea + Melatonin</span>
+                <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product">
+                <img src="foto12.PNG" alt="Vitamin Image 10" >
+                <span class="name">OLYXIR</span>
+                <span class="price">24.99€</span>
+                <span class="description">Glow Tea</span>
+                <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>     
+    </div>
+    </section>
+
+    <footer class="footer">
+        <div class="logo">HEALTH &<br>
+                 <span> WELLNESS</span></div> </div>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Track my order</a></li>
+                    <li><a href="#">Shipping & returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Tik Tok</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Sign up for the latest news</h3>
+                <form class="newsletter-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name">
+                        <input type="text" placeholder="Country">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <hr class="top-line2">
+            <p>&copy; 2024 Health & Wellness Store. All Rights Reserved by Health & Wellness Store</p>
+        </div>
+    </footer>
+</body>
+</html>
 
